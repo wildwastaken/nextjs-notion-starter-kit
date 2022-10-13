@@ -33,7 +33,7 @@ export const FooterImpl: React.FC = () => {
 
   return (
     <footer className={styles.footer}>
-      <div className={styles.copyright}>Copyright 2022 {config.author}</div>
+      <div className={styles.copyright}>© Copyright 2022. Amity Hacks, a not-for-profit, section 501(c)(3).</div>
 
       <div className={styles.settings}>
         {hasMounted && (
