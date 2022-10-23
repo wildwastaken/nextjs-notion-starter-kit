@@ -17,8 +17,8 @@ export default siteConfig({
   description: 'Amity Hacks',
 
   // social usernames (optional)
-  twitter: 'amityhacks',
-  github: 'amityhacks',
+  twitter: 'amityregion5',
+  github: 'wildwastaken',
   // linkedin: 'amityhacks',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
