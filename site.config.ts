@@ -2,19 +2,19 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '56df1746cb53434a96e74af529628793',
+  rootNotionPageId: '503e8d3ca7be4cca8080b58a5ac8d8c3',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Charity',
-  domain: 'moustaphacharity.vercel.app',
-  author: 'Allen',
+  name: 'Amity Hacks',
+  domain: 'amityhacks.vercel.app/',
+  author: 'Allen and Mark',
 
   // open graph metadata (optional)
-  description: 'Charity',
+  description: 'Amity Hacks',
 
   // social usernames (optional)
   twitter: 'amityregion5',
@@ -54,15 +54,15 @@ export default siteConfig({
   navigationLinks: [
     {
       title: 'About',
-      pageId: '8e9f708904984722a2b25ad88a40102b'
+      pageId: 'fcc7f8abf12644faa2c94de8284162f4'
     },
     {
       title: 'Contact',
-      pageId: 'a517e081d397491181efab9cc06c7576'
+      pageId: '55bd911d1f76491897ba3c28e71be5d9'
     },
     {
       title: 'Blog',
-      pageId: '9d7213641ef5409c9b15256b2285b404'
+      pageId: 'a6d5bf2757df4ab48dd28c19c780a6e6'
     }
   ]
 })
